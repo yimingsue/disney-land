@@ -1,4 +1,4 @@
-[![My Skills](https://skillicons.dev/icons?i=nextjs,react,ts,azure,openai,js,html,css,wasm)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,ts,azure,ai,js,html,css,wasm)](https://skillicons.dev)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
