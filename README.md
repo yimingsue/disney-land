@@ -1,3 +1,5 @@
+[![My Skills](https://skillicons.dev/icons?i=nextjs,ts,shadcn,js,html,css,wasm)](https://skillicons.dev)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
