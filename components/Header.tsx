@@ -10,7 +10,7 @@ export const imageLoader = ({ src, width, quality }: ImageLoaderProps) => {
 
 const Header = () => {
     return (
-        <header className="fixed w-full flex justify-between items-center z-20 top-0 
+        <header className="fixed w-full flex justify-between items-center z-50 top-0
         p-5 bg-gradient-to-t from-gray-200/0 via-gray-900/25 to-gray-900">
             <Link
                 href="/" className="mr-10"
@@ -21,7 +21,7 @@ const Header = () => {
                     alt={"Disney Land"}
                     width={120}
                     height={100}
-                    className="cursor-pointer invert-0 dark:invert"
+                    className={"cursor-pointer invert-0 dark:invert"}
                 />
             </Link>
             <div className="flex space-x-2">

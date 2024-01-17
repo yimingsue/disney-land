@@ -33,10 +33,9 @@ async function getGenres() {
 
 async function GenreDropdown() {
     const data = await getGenres()
-    console.log("data loaded:::", data.genres)
     return (
         <>
-            <DropdownMenu>
+            <DropdownMenu modal={false}>
                 <DropdownMenuTrigger
                     className="text-white flex justify-center items-center">
                     Genre<ChevronDown className="ml-1" />
