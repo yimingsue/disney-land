@@ -12,7 +12,7 @@ Autoplay.globalOptions = { delay: 8000 }
 
 
 const CarouselBanner = ({ movies }: { movies: Movie[] }) => {
-    const [emblaRef] = useEmblaCarousel({ loop: false, duration: 100 }, [Autoplay()])
+    const [emblaRef] = useEmblaCarousel({ loop: true, duration: 100 }, [Autoplay()])
 
     return (
         <div className="overflow-hidden lg:-mt-40 relative cursor-pointer" ref={emblaRef}  >
