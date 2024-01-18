@@ -1,5 +1,5 @@
 
-const AiSuggestion = () => {
+const AISuggestion = () => {
     return (
         <div>
             AiSuggestion
@@ -7,4 +7,4 @@ const AiSuggestion = () => {
     );
 };
 
-export default AiSuggestion;
+export default AISuggestion;
