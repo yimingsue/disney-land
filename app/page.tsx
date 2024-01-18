@@ -9,7 +9,7 @@ export default async function Home() {
   const topRatedMovies = await getTopRatedMovies()
 
   return (
-    <main>
+    <main className="w-full max-w-screen-2xl mx-auto">
       <CarsouselBannerWrapper />
 
 
