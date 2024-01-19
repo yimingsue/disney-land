@@ -3,21 +3,23 @@ import {
     AzureKeyCredential,
     ChatResponseMessage,
   } from "@azure/openai";
+
+  const isDev = process.env.NODE_ENV == 'development'
   
   async function AIAzureSuggestion({ term }: { term: string }) {
     const fetchChatCompletion = async () => {
       const completions: (ChatResponseMessage | undefined)[] = [];
   
-      const endpoint = process.env.ENDPOINT;
-      const azureApiKey = process.env.AZURE_API_KEY;
+      const endpoint = process.env.ENDPOINT || '';
+      const azureApiKey = process.env.AZURE_API_KEY || '';
   
-      if (!endpoint) throw new Error("Missing endpoint");
-      if (!azureApiKey) throw new Error("Missing Azure API Key");
+      if (!isDev && !endpoint) throw new Error("Missing endpoint");
+      if (!isDev && !azureApiKey) throw new Error("Missing Azure API Key");
   
       console.log(
         `Using endpoint: ${endpoint} and Azure API Key: ${azureApiKey}`
       );
-  
+      
       const client = new OpenAIClient(
         endpoint,
         new AzureKeyCredential(azureApiKey)
