@@ -30,3 +30,7 @@ export type Movie = {
   export type Genres = {
     genres: Genre[];
   };
+
+  export type RChatResponseMessage = {
+    
+  }

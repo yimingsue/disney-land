@@ -1,0 +1,19 @@
+{
+    "suggestions": [
+        {
+            "id": 1,
+            "title": "Frozen",
+            "type": "movie"
+        },
+        {
+            "id": 2,
+            "title": "Frozen II",
+            "type": "movie"
+        },
+        {
+            "id": 3,
+            "title": "Olaf's Frozen Adventure",
+            "type": "short"
+        }
+    ]
+}
