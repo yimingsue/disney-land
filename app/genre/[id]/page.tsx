@@ -9,7 +9,6 @@ type Props = {
 
 
 async function GenrePage({ params: { id }, searchParams: { genre } }: Props) {
-    console.log("id: ", id)
     const discoverMovies = await getDiscoverMovies(id)
     return (
         <div className="max-w-7xl mx-auto">

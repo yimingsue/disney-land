@@ -1,8 +1,5 @@
 'use client'
-import { Loader, Loader2Icon } from 'lucide-react';
-import useSWR from 'swr'
-
-const isDev = () => process.env.NODE_ENV == 'development'
+import useSWR from 'swr';
 
 const fetcher = (term: string) => fetch(`/api/suggestions?term=${term}`).then((res) => res.json())
 
